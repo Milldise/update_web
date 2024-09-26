@@ -400,16 +400,27 @@ footer a {
 
 @media (max-width: 900px) and (min-width: 700px) {
     .form form fieldset {
-        width: 65%; /* Increase the width to 70% for better readability on smaller screens */
+        width: 70%; /* Increase the width to 70% for better readability on smaller screens */
     }
 
- 
+    .form form button {
+        width: 150px; /* Slightly reduce the button width */
+        font-size: 1.1rem; /* Adjust font size */
+    }
 }
 
 /* Styles for screens less than 700px */
 @media (max-width: 699px) {
     .form form fieldset {
-        width: 80%; /* Full width for mobile screens */
+        width: 90%; /* Full width for mobile screens */
     }
 
+    .form form button {
+        width: 100%; /* Make the button full width for small screens */
+        font-size: 1rem; /* Further adjust the font size */
+    }
+
+    .form form fieldset legend {
+        font-size: 1rem; /* Adjust legend size for smaller screens */
+    }
 }
