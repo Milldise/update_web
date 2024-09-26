@@ -274,6 +274,9 @@ footer a {
         height: auto; /* Высота автоматически подстраивается под ширину */
     }
 }
+.burger {
+    display: none;
+}
 
 @media (min-width: 700px) and (max-width: 900px) {
     /* При ширине экрана от 700px до 900px */
