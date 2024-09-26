@@ -4,7 +4,7 @@
     flex-direction: row; /* Располагает дочерние элементы .navbar в строку (по горизонтали) */
     justify-content: space-between; /* Распределяет дочерние элементы .navbar равномерно, 
     с максимальным пространством между ними */
-    background-color: #faf7f7; /* Устанавливает фоновый цвет для .navbar */
+    background-color: #d8b7b7; /* Устанавливает фоновый цвет для .navbar */
 }
 
 .navbar ul {
